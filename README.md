@@ -2,7 +2,7 @@
 
 
 
-\##  Introduction
+##  Introduction
 
 
 
@@ -16,55 +16,55 @@ This project is built using Page Object Model (POM) design pattern to ensure cod
 
 
 
-\---
+---
 
 
 
 
 
-\##  Tech Stack
+##  Tech Stack
 
 
 
-\* Java
+* Java
 
-\* Selenium WebDriver
+* Selenium WebDriver
 
-\* TestNG
+* TestNG
 
-\* Maven
+* Maven
 
-\* WebDriverManager
+* WebDriverManager
 
-\* Extent Reports
+* Extent Reports
 
-\* Apache POI (Excel handling)
-
-
-
-\---
+* Apache POI (Excel handling)
 
 
+
+---
 
 
 
 
 
-\##  Key Design Principles
+
+
+##  Key Design Principles
 
 
 
-\* Page Object Model (POM)
+* Page Object Model (POM)
 
-\* Reusable methods in BasePage
+* Reusable methods in BasePage
 
-\* Data-driven testing
+* Data-driven testing
 
-\* Clean and readable code
+* Clean and readable code
 
 
 
-\---
+---
 
 
 

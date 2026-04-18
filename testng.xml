@@ -1,0 +1,33 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="ShopBot Automation Suite">
+
+    <!-- Listener for reports + screenshots -->
+    <listeners>
+        <listener class-name="com.srm.listeners.TestListener"/>
+    </listeners>
+
+    <test name="Ecommerce Tests">
+
+        <classes>
+
+            <!-- Module 1: Login -->
+            <class name="com.srm.tests.LoginTest"/>
+
+            <!-- Module 2: Products -->
+            <class name="com.srm.tests.ProductTest"/>
+
+            <!-- Module 3: Cart -->
+            <class name="com.srm.tests.CartTest"/>
+
+            <!-- Module 4: Checkout -->
+            <class name="com.srm.tests.CheckoutTest"/>
+
+            <!-- Module 5: Problem User -->
+            <class name="com.srm.tests.ProblemUserTest"/>
+
+        </classes>
+
+    </test>
+
+</suite>
